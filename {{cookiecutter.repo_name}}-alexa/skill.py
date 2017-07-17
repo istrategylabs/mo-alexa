@@ -15,12 +15,6 @@ if config('ASK_APPLICATION_ID'):
 if config('SENTRY_DSN'):
     sentry = Sentry(app, dsn=config('SENTRY_DSN'))
 
-app.config['ASK_VERIFY_REQUESTS'] = False
-
-all_news = []
-gameplay_news = []
-number_of_gameplay_headlines = config('NUM_GAME_HEADLINES', cast=int)
-
 
 @app.route("/")
 def hello():
@@ -29,7 +23,7 @@ def hello():
 
 @ask.launch
 def start_game():
-    return question(msg)
+    return statement('Set up a launch intent')
 
 
 @ask.intent("AMAZON.HelpIntent")

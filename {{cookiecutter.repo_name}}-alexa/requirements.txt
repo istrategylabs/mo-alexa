@@ -1,4 +1,4 @@
-flask-ask==0.9.5
+flask-ask
 python-decouple==3.0
 raven[flask]
 waitress==1.0.2
