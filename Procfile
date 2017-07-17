@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT {{cookiecutter.proc_name}}_skill:app
+web: waitress-serve --port=$PORT {{cookiecutter.repo_name}}/skill:app
