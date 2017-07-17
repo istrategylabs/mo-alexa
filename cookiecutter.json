@@ -1,0 +1,8 @@
+{
+    "project_name": "Project Name",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.repo_name|lower|replace('-', '') }}",
+    "proc_name": "{{ cookiecutter.repo_name|lower|replace('-', '_') }}",
+    "author": "ISL",
+    "description": ""
+}
