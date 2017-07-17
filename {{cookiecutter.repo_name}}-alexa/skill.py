@@ -1,6 +1,4 @@
 import logging
-import requests
-import random
 from decouple import config
 from flask import Flask, render_template
 from flask_ask import Ask, statement, question, session
@@ -27,7 +25,7 @@ def start_game():
 
 
 @ask.intent("AMAZON.HelpIntent")
-def help():)
+def help():
     return statement('Set up a help intent')
 
 
