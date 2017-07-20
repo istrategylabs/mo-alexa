@@ -11,11 +11,12 @@ Prep
 ```
 brew install cookiecutter
 cookiecutter gh:istrategylabs/mo-lexa
-cp env.example .env
-pip install -r requirements
 ```
 Running
 ```
+cd {{cookiecutter.repo_name-alexa}}
+cp env.example .env
+pip install -r requirements
 gem install foreman
 foreman start -f Procfile.dev
 ```
