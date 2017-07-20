@@ -14,7 +14,6 @@ cookiecutter gh:istrategylabs/mo-lexa
 ```
 Running
 ```
-cd {{cookiecutter.repo_name-alexa}}
 cp env.example .env
 pip install -r requirements
 gem install foreman
