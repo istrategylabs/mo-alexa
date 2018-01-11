@@ -1,4 +1,4 @@
-# mo-lexa
+# mo-alexa
 Alexa Skill Cookiecutter project template by @istrategylabs
 
 # Features
@@ -10,7 +10,7 @@ Alexa Skill Cookiecutter project template by @istrategylabs
 Prep
 ```
 brew install cookiecutter
-cookiecutter gh:istrategylabs/mo-lexa
+cookiecutter gh:istrategylabs/mo-alexa
 ```
 Running
 ```
